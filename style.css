@@ -1,0 +1,15 @@
+.sm-title {
+  background-color: teal;
+  color: white;
+}
+.sm-title:hover {
+  background-color: blue;
+}
+h1,
+h2 {
+  text-align: center;
+}
+#footer {
+  text-align: center;
+  font-size: 18px;
+}
