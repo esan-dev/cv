@@ -2,64 +2,99 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My cv</title>
     <link rel="stylesheet" href="./style.css" />
+    <title>Anse.dev</title>
   </head>
   <body>
-    <!-- Consignes 
-        Vous n'êtes autorisés qu'a utiliser les concepts déjà vus en cours.
-        Le nom du dossier contenant le projet de chaque étudiant doit porter son nom.
-        Tout les projets doivent être reunis dans un fichier zippé qui me sera envoyé -->
-    <h1>Jean Anselme</h1>
-    <h2 id="experiences" class="sm-title">Mon experience</h2>
-    <ul>
-      <li>De 2017 à 2021: Developpeur web et mobile freelance</li>
-    </ul>
-    <h2 id="skills" class="sm-title">Mes comptences</h2>
-    <ul>
-      <li>
-        Front-end
-        <ul>
-          <li>Html & css , javascript</li>
-          <li>React js</li>
-          <li>Angular</li>
-          <li>Bootstrap</li>
-          <li>tailwind</li>
-          <li>Angular</li>
-        </ul>
-      </li>
-      <li>
-        Back-end
-        <ul>
-          <li>
-            web
-            <ul>
-              <li>PHP (point fort)</li>
-              <li>Python</li>
-              <li>node</li>
-              <li>Symfony (point fort)</li>
-              <li>Laravel (point fort)</li>
-              <li>Django</li>
-            </ul>
-          </li>
-          <li>
-            Mobile
-            <ul>
-              <li>Flutter</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <h2 id="formations" class="sm-title">Mon Parcours</h2>
-    <ul>
-      <li>
-        Etudiant à <a href="https://nan.ci/"> Nan</a> Pour le certificat PHP
-      </li>
-      <li>developpeur web et mobile autodiacte depuis 2017</li>
-    </ul>
-    <p id="footer">Projet <a href="https://nan.ci/"> Nan</a></p>
+    <!-- Global Container -->
+    <div class="anse-page">
+      <!-- Anse Wrapper page -->
+      <div class="anse-wrapper">
+        <!-- Mobile Menu -->
+        <div class="anseMobile">
+          <div class="anseMobile__wrap">
+            <div class="anseMobile__block">
+              <div class="anseMobile__logo">
+                <a href="">Dev </a>
+              </div>
+              <div class="anseMobile__icon">
+                <button>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+            <div class="anseMobile__menu">
+              <ul class="menu-wrap">
+                <li class="menu-item"><a href="#">Accueil</a></li>
+                <li class="menu-item"><a href="#">A propos</a></li>
+                <li class="menu-item"><a href="#">Portfolio</a></li>
+                <li class="menu-item"><a href="#">Competences</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End-Mobile-Menu -->
+        <!-- Anse Desktop menu -->
+        <div class="anseDesktop">
+          <div class="anseDesktop__block">
+            <div class="profile">
+              <a href="" class="profile-img">
+                <img src="./avatar.png" alt="" />
+              </a>
+              <div class="name">Jean Anselme</div>
+              <div class="desc">Full-Stack Developpeur(75%)</div>
+            </div>
+            <div class="anseDesktop-menu">
+              <ul class="menu-wrap">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Accueil</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">A propos</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Portfolio</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Competences</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Section -->
+        <main id="main">
+          <div class="home">
+            <div class="home__block">
+              <div class="banner-overlay">
+                <div class="home-banner"></div>
+              </div>
+              <div class="home-intro" style="color: #fff">
+                <div class="home-intro__container">
+                  <div class="home-in">
+                    <div class="home-title">Hello, je suis Anselme</div>
+                    <div class="sub-title">
+                      Développeur web & Mobile freelance
+                    </div>
+
+                    <div class="home-actions">
+                      <div class="my-protfolio">portfolio</div>
+                      <div class="contact-me">Me joindre</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- End-Global-Container -->
   </body>
 </html>
